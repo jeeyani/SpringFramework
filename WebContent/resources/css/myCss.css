@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+img {
+	border: 0;
+}
+
+
+h5 {
+	font-weight: bold;
+	color: #754F44;
+}
+
+li {
+	color: #585858;
+}
+
+#main {
+	border: 1px solid #754F44;
+	border-radius: 25px;
+	padding:10px;
+}
+
+#main .sector {
+	border: 0.5px solid #754F44; 
+	margin-bottom:20px;
+	padding:5px;
+}
+
+.chapter {
+	margin: 5px;
+	padding: 5px;
+	color: #EC7357;
+	font-weight: bold;
+	border: 0.5px solid #754F44;
+}
+
+.chapter a {
+	text-decoration: none;
+	color: #754F44;
+	font-weight: bold;
+}
+
+.chapter a:hover {
+	text-decoration: underline;
+	color: #FFBC42;
+	font-weight: bold;
+}
+
+
+
+#backdiv {
+	border: 5px solid #FDD692;
+	padding: 5px;
+}
